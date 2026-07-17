@@ -57,7 +57,7 @@ lower expected volatility.
 
 ### Correlation Structure
 
-![Correlation Heatmap](outputs/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
 
 The allocation logic reads directly off this matrix:
 - **GLD** is nearly uncorrelated with equities (0.07–0.21 vs. QQQ/SPY/EFA) — it earns
@@ -74,7 +74,7 @@ The allocation logic reads directly off this matrix:
 forward quarterly across the full return history, to show how the allocation would
 have drifted as market conditions and correlations changed.
 
-![Rolling Weights](outputs/rolling_weights_chart.png)
+![Rolling Weights](rolling_weights_chart.png)
 
 Average one-way turnover per quarterly rebalance across the sample: **~4.9%**
 (max single-period turnover: ~20%, around regime shifts). This is the practical
