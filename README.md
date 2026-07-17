@@ -49,7 +49,7 @@ deliberately, to make that trade-off visible rather than asserted.
 
 ### Efficient Frontier
 
-![Efficient Frontier](outputs/efficient_frontier.png)
+![Efficient Frontier](efficient_frontier.png)
 
 The minimum-variance portfolio (green) sits at the leftmost point of the frontier —
 by construction, no other long-only, 25%-capped combination of these 8 assets has
